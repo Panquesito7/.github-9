@@ -1,1 +1,1 @@
-# .github
+# repo-template
