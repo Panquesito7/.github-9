@@ -1,0 +1,25 @@
+name: Bug report
+description: Create a bug report to help us address errors in the repository
+title: "[BUG] <bug description>"
+labels: ["🐛 bug 🐛"]
+body:
+  - type: textarea
+    id: bugdescription
+    attributes:
+      label: Description of the bug
+      description: "Provide a detailed description of the bug you're encountering"
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Please add screenshots (if applicable)
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional information
+      description: Is anything else we should know about this bug?
+    validations:
+      required: false
